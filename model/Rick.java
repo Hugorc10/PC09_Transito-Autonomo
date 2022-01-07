@@ -1108,7 +1108,7 @@ public class Rick extends Thread {
     }
     
     private long controlRickSpeed() {
-        long speed = (long) (100 - ControlsView.rickSpeedSld.getValue());
+        long speed = (long) (12 - ControlsView.rickSpeedSld.getValue());
         return speed;
     }
 }

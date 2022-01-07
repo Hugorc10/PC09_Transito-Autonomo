@@ -452,7 +452,7 @@ public class Morty extends Thread {
     }
     
     private long controlMortySpeed() {
-        long speed = (long) (100 - ControlsView.mortySpeedSld.getValue());
+        long speed = (long) (12 - ControlsView.mortySpeedSld.getValue());
         return speed;
     }
 }

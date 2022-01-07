@@ -31,10 +31,10 @@ public class MediaControl extends HBox {
     private boolean stopRequested = false;
     private boolean atEndOfMedia = false;
     private Duration duration;
-    private Slider timeSlider;
-    private Label playTime;
-    private CheckBox repeatBox;
-    private Slider volumeSlider;
+    private final Slider timeSlider;
+    private final Label playTime;
+    private final CheckBox repeatBox;
+    private final Slider volumeSlider;
     
     public MediaControl(Media media) {
         mp = new MediaPlayer(media);
@@ -168,7 +168,6 @@ public class MediaControl extends HBox {
         volumeSlider.setMaxWidth(Region.USE_PREF_SIZE);
         volumeSlider.setMinWidth(30);
         volumeSlider.valueProperty().addListener(new ChangeListener<Number>() {
-            
             @Override
             public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
                 if (volumeSlider.isValueChanging()) {

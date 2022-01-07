@@ -422,7 +422,7 @@ public class Beth extends Thread {
     }
     
     private long controlBethSpeed() {
-        long speed = (long) (100 - ControlsView.bethSpeedSld.getValue());
+        long speed = (long) (12 - ControlsView.bethSpeedSld.getValue());
         return speed;
     }
 }

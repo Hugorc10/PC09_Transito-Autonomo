@@ -43,7 +43,7 @@ public class ControlsView {
         Scene scene = new Scene(root, 400, 370);
         
         window.setTitle("Controls");
-        window.setX(960);
+        window.setX(1200);
         window.setY(200);
         
         final URL rickAndMortyThemeResource = getClass().getResource(RICK_AND_MORTY_SONG_PATH);
@@ -80,22 +80,22 @@ public class ControlsView {
         
         // BorderPane com elementos de controle e imagens do Rick
         BorderPane rickBorderPane = new BorderPane();
-        rickBorderPane.setPadding(new Insets(0, 5, 10, 0));
+        rickBorderPane.setPadding(new Insets(0, 5, 10, 5));
         
         Text rickTxt = new Text("Rick's speed control");
         rickTxt.setTextAlignment(TextAlignment.CENTER);
         rickTxt.setFont(Font.font("Verdana", FontWeight.BOLD, 17));
         
         // Slider de velocidade do Rick
-        rickSpeedSld = new Slider(0, 99, 95);
+        rickSpeedSld = new Slider(0, 10, 5);
         rickSpeedSld.setOrientation(Orientation.HORIZONTAL);
         rickSpeedSld.getStylesheets().add(getClass().getResource("/css/slider.css").toExternalForm());
         rickSpeedSld.setMaxWidth(Region.USE_PREF_SIZE);
         rickSpeedSld.setPrefWidth(380);
         rickSpeedSld.setShowTickLabels(true);
         rickSpeedSld.setShowTickMarks(true);
-        rickSpeedSld.setMajorTickUnit(20);
-        rickSpeedSld.setMinorTickCount(3);
+        rickSpeedSld.setMajorTickUnit(1);
+        rickSpeedSld.setMinorTickCount(0);
         
         // imagem da rota do Rick
         ImageView rickRoute = buildImage("/img/routes/route20.png", 180);
@@ -122,15 +122,15 @@ public class ControlsView {
         summerTxt.setFont(Font.font("Verdana", FontWeight.BOLD, 17));
         
         // Slider de velocidade da Summer
-        summerSpeedSld = new Slider(0, 99, 95);
+        summerSpeedSld = new Slider(0, 10, 5);
         summerSpeedSld.getStylesheets().add(getClass().getResource("/css/slider.css").toString());
         summerSpeedSld.setOrientation(Orientation.HORIZONTAL);
         summerSpeedSld.setMaxWidth(Region.USE_PREF_SIZE);
         summerSpeedSld.setPrefWidth(380);
         summerSpeedSld.setShowTickLabels(true);
         summerSpeedSld.setShowTickMarks(true);
-        summerSpeedSld.setMajorTickUnit(20);
-        summerSpeedSld.setMinorTickCount(3);
+        summerSpeedSld.setMajorTickUnit(1);
+        summerSpeedSld.setMinorTickCount(0);
         
         // Imagem da rota da Summer
         ImageView summerRoute = buildImage("/img/routes/route1.png", 180);
@@ -157,15 +157,15 @@ public class ControlsView {
         bethTxt.setFont(Font.font("Verdana", FontWeight.BOLD, 17));
         
         // Slider de velocidade da Beth
-        bethSpeedSld = new Slider(0, 99, 95);
+        bethSpeedSld = new Slider(0, 10, 5);
         bethSpeedSld.getStylesheets().add(getClass().getResource("/css/slider.css").toString());
         bethSpeedSld.setOrientation(Orientation.HORIZONTAL);
         bethSpeedSld.setMaxWidth(Region.USE_PREF_SIZE);
         bethSpeedSld.setPrefWidth(380);
         bethSpeedSld.setShowTickLabels(true);
         bethSpeedSld.setShowTickMarks(true);
-        bethSpeedSld.setMajorTickUnit(20);
-        bethSpeedSld.setMinorTickCount(3);
+        bethSpeedSld.setMajorTickUnit(1);
+        bethSpeedSld.setMinorTickCount(0);
         
         // imagem da rota da Beth
         ImageView bethRoute = buildImage("/img/routes/route11.png", 180);
@@ -193,15 +193,15 @@ public class ControlsView {
         jerryTxt.setFont(Font.font("Verdana", FontWeight.BOLD, 17));
         
         // Slider de velocidade de Jerry
-        jerrySpeedSld = new Slider(0, 99, 95);
+        jerrySpeedSld = new Slider(0, 10, 5);
         jerrySpeedSld.setOrientation(Orientation.HORIZONTAL);
         jerrySpeedSld.getStylesheets().add(getClass().getResource("/css/slider.css").toString());
         jerrySpeedSld.setMaxWidth(Region.USE_PREF_SIZE);
         jerrySpeedSld.setPrefWidth(380);
         jerrySpeedSld.setShowTickLabels(true);
         jerrySpeedSld.setShowTickMarks(true);
-        jerrySpeedSld.setMajorTickUnit(20);
-        jerrySpeedSld.setMinorTickCount(3);
+        jerrySpeedSld.setMajorTickUnit(1);
+        jerrySpeedSld.setMinorTickCount(0);
         
         // imagem da rota do Jerry
         ImageView jerryRoute = buildImage("/img/routes/route7.png", 180);
@@ -228,15 +228,15 @@ public class ControlsView {
         mortyTxt.setFont(Font.font("Verdana", FontWeight.BOLD, 17));
         
         // Slider de velocidade do Morty
-        mortySpeedSld = new Slider(0, 99, 95);
+        mortySpeedSld = new Slider(0, 10, 5);
         mortySpeedSld.setOrientation(Orientation.HORIZONTAL);
         mortySpeedSld.getStylesheets().add(getClass().getResource("/css/slider.css").toString());
         mortySpeedSld.setMaxWidth(Region.USE_PREF_SIZE);
         mortySpeedSld.setPrefWidth(380);
         mortySpeedSld.setShowTickLabels(true);
         mortySpeedSld.setShowTickMarks(true);
-        mortySpeedSld.setMajorTickUnit(20);
-        mortySpeedSld.setMinorTickCount(3);
+        mortySpeedSld.setMajorTickUnit(1);
+        mortySpeedSld.setMinorTickCount(0);
         
         // imagem da rota do Morty
         ImageView mortyRoute = buildImage("/img/routes/route16.png", 180);
@@ -329,7 +329,7 @@ public class ControlsView {
      * @param speedSld Slider do personagem especificado
      * @param element2 Label generico que sera adiciona a um HBox
      * @param titleTxt Titulo que ficara em cima do Slider
-     * @return
+     * @return VBox
      */
     private VBox vBoxTop(Label element1, Slider speedSld, Label element2, Text titleTxt) {
         HBox hBoxTop = new HBox(5);

@@ -21,7 +21,6 @@ public class Jerry extends Thread {
             @Override
             public void run() {
                 ScreenView.jerryView.setVisible(true);
-                
             }
         });
         ScreenView.jerryView.setLayoutX(242);
@@ -451,7 +450,7 @@ public class Jerry extends Thread {
     }
     
     private long controlJerrySpeed() {
-        long speed = (long) (100 - ControlsView.jerrySpeedSld.getValue());
+        long speed = (long) (12 - ControlsView.jerrySpeedSld.getValue());
         return speed;
     }
 }

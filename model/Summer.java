@@ -1004,7 +1004,7 @@ public class Summer extends Thread {
     }
     
     private long controlSummerSpeed() {
-        long speed = (long) (100 - ControlsView.summerSpeedSld.getValue());
+        long speed = (long) (12 - ControlsView.summerSpeedSld.getValue());
         return speed;
     }
 }
