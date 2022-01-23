@@ -1,27 +1,36 @@
 /**
  * Created by Hugo Teixeira Mafra <hugorc10@hotmail.com> on 17/10/2018. Last modification on 28/10/2018.
- * <p>
+ * <br>
  * Enrollment number: 201611540
- * <p>
+ * <br>
  * Rick and Morty Race Condition is inter-process communication and synchronization problem.
  * It simulates a traffic of cars (or people, as is the case of my program) that can not collide.
  * The areas that cars may collide are critical section
  * (parts of the code where two processes dispute access to a shared resource).
  * The purpose of the program is to simulate this transit avoiding that the cars chop,
  * using the special semaphore variable created by Dijlkstra.
- * <p>
- * Rick and Morty Race Condition is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * <p>
- * Rick and Morty Race Condition is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU General Public License for more details.
- * <p>
- * To see the GNU General Public License
- * please visit this site: <http://www.gnu.org/licenses/>.
+ * <br>
+ * MIT License
+ * <br>
+ * Copyright (c) 2018 Hugo Mafra
+ * <br>
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * <br>
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * <br>
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
  */
 
 import javafx.application.Application;
