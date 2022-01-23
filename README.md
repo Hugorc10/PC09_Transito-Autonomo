@@ -1,4 +1,5 @@
 # Transito-autonomo
+## Mudanças na branch development
 Trabalho da disciplina de programação concorrente da Universidade Estadual do Sudoeste da Bahia (UESB).
 
 A condição de corrida de Rick e Morty é um problema de sincronização e comunicação entre processos.
