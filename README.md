@@ -1,4 +1,6 @@
-# Transito-autonomo
+# Transito autonomo - Trabalho 09 da disciplina de programação concorrente
+## Salve salve, então você está cursando programação concorrente ministrada por Marlos em. 😂😂😂
+## Se der estrela no repositório = humilde
 
 Trabalho da disciplina de programação concorrente da Universidade Estadual do Sudoeste da Bahia (UESB).
 
