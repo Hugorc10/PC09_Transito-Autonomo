@@ -1,5 +1,5 @@
 # Transito autonomo - Trabalho 09 da disciplina de programação concorrente da Universidade Estadual do Sudoeste da Bahia (UESB).
-## Salve salve, então você está cursando programação concorrente ministrada por Marlos em. 😂😂😂
+## Salve salve, então você está cursando programação concorrente ministrada por Marlos ein? 😂😂😂
 ### Se der estrela no repositório = humilde.
 
 A condição de corrida de Rick e Morty é um problema de sincronização e comunicação entre processos.
