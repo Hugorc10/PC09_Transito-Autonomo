@@ -1,6 +1,6 @@
 # Transito autonomo - Trabalho 09 da disciplina de programação concorrente da Universidade Estadual do Sudoeste da Bahia (UESB).
 ## Salve salve, então você está cursando programação concorrente ministrada por Marlos em. 😂😂😂
-## Se der estrela no repositório = humilde.
+### Se der estrela no repositório = humilde.
 
 A condição de corrida de Rick e Morty é um problema de sincronização e comunicação entre processos.
 Simula um trânsito de carros (ou pessoas, como é o caso do meu programa) que não pode colidir.
@@ -12,4 +12,4 @@ It simulates a traffic of cars (or people, as is the case of my program) that ca
 The areas that cars may collide are critical section (parts of the code where two processes dispute access to a shared resource).
 The purpose of the program is to simulate this transit avoiding that the cars chop, using the special semaphore variable created by Dijlkstra.
 
-![Rick and Morty Project](./Rick_And_Morty.gif)
+![Rick and Morty Project](./Rick_and_Morty.gif)
